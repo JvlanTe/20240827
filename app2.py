@@ -13,9 +13,3 @@ c.execute("INSERT INTO students (name , age) VALUES (? , ?)", (name, age))
 conn.commit()
 
 conn.close()
-
-import sqlite3
-
-conn = sqlite3.connect("example.db")
-
-c = conn.cursor()
